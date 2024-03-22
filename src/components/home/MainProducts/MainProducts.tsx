@@ -1,4 +1,4 @@
-
+import { getMainProducts } from 'app/services/shopify/products'
 import Image from 'next/image'
 import styles from './MainProducts.module.sass'
 
@@ -13,6 +13,7 @@ const getProducts = async () => {
         'X-Shopify-Access-Token': process.env.SHOPIFY_API_KEY || ""
     } )
   })
+
   const {products} = await response.json()
 
   return products
