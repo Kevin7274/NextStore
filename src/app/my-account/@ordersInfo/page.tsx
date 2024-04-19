@@ -1,6 +1,8 @@
 import { getCustomerOrders } from "app/services/shopify/graphql/customer";
 import styles from './OrderInfo.module.sass'
 
+
+//seccion para funcion de ordenes
 type OrderType = {
   name: string;
   orderNumber: number;

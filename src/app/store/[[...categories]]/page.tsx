@@ -2,6 +2,9 @@ import { ProductsWrapper } from "app/components/Store/ProductsWrapper"
 import { getCollectionProducts, getCollections } from "app/services/shopify/collections"
 import { getProducts } from "app/services/shopify/products"
 
+//pagina pra la tienta 
+
+
 interface CategoryProps {
   params: {
     categories: string[],

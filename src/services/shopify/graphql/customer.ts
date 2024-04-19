@@ -2,6 +2,7 @@ import { GraphQLClientSingleton } from "app/graphql"
 import { getOrdersQuery } from "app/graphql/queries/getOrders"
 import { cookies } from "next/headers"
 
+//funcipon para clientes
 
 export const getCustomerOrders = async () => {
   const cookiesStorage = cookies()

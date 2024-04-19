@@ -1,5 +1,6 @@
 import { validateAccessToken } from "app/utils/auth/validateAccessToken";
 
+//funcion de vercel para hacer dinamico
 export const dynamic = 'force-dynamic';
 
 export default async function MyAccountPage() {

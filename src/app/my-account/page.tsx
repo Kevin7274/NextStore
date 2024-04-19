@@ -1,5 +1,7 @@
 import styles from './MyAccount.module.sass'
 
+///funcion de función de cuenta
+
 export default async function MyAccountPage() {
   return (
     <div>
