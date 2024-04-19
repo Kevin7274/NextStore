@@ -1,7 +1,9 @@
 import { GraphQLClientSingleton } from 'app/graphql'
-import { customerName } from 'app/graphql/queries/customerName'
 import { cookies } from 'next/headers'
+import { customerName } from 'app/graphql/queries/customerName'
 
+  
+ 
 export const validateAccessToken = async () => {
   try {
     const cookieStore = cookies()
@@ -17,6 +19,5 @@ export const validateAccessToken = async () => {
     })
     return customer
   } catch (error) {
-    console.error(error)
   }
 }

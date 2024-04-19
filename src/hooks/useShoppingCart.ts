@@ -1,6 +1,8 @@
 import { create } from 'zustand'
 
-type Store = {
+
+
+type Store = { 
   cart: CartItem[]
   addToCart: (cartItem: CartItem) => void
   removeCartItem: (cartItem: CartItem) => void

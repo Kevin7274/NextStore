@@ -8,6 +8,7 @@ const NoSSRShoppingCart = dynamic(() => import('../ShoppingCart'), { ssr: false 
 export const Header = async () => {
   const customer = await validateAccessToken()
 
+  
   return (
     <header className={styles.Header}>
       <nav>

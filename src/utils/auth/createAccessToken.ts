@@ -18,6 +18,8 @@ export const createAccessToken = async (email: string, password: string) => {
       "password": password
     })
 
+
+    
   const { accessToken, expiresAt } = customerAccessTokenCreate?.customerAccessToken
 
   if (accessToken) {
