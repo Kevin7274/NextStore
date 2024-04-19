@@ -3,6 +3,9 @@ import { getProducts } from "app/services/shopify/products"
 import { createAgent } from "app/utils/openai/createAgent"
 
 
+
+//creación de la funcion para el chat
+
 export default async function ChatPage() {
 
   const products = await getProducts()

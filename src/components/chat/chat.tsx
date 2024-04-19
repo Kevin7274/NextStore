@@ -2,6 +2,10 @@
 import { useChat } from 'ai/react';
 import styles from './Chat.module.sass';
 
+
+
+//funcion del sistema con chat de ia
+
 export const Chat = (props: { agent: string }) => {
   const { messages, input, handleInputChange, handleSubmit } = useChat({
     initialMessages: [

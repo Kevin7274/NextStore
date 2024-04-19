@@ -1,5 +1,6 @@
 import OpenAI from 'openai';
 import { OpenAIStream, StreamingTextResponse } from 'ai';
+ //creacion de la instancia para el chat con ia
  
 // Create an OpenAI API client (that's edge friendly!)
 const openai = new OpenAI({
